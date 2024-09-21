@@ -20,7 +20,7 @@ This project is a simple CRUD **Book Management System** built with **Laravel**,
 6. php artisan serve
 
 ## API Endpoints
-1. Get All Books : POST /api/books (with ability to filter on is_active (optional): Set to 1 to retrieve only available books, or 0 to retrieve unavailable books. Endpoint:  GET /api/books?is_active=1)
+1. Get All Books : Get /api/books (with ability to filter on is_active (optional): Set to 1 to retrieve only available books, or 0 to retrieve unavailable books. Endpoint:  GET /api/books?is_active=1)
 2. Create a Book : POST /api/books
 3. Update a Book : PUT /api/books/{id}
 4. Delete a Book : DELETE /api/books/{id} (soft delete)
